@@ -1,3 +1,9 @@
+python-django-dbtemplates (0.5.6-0jaunty2) jaunty; urgency=low
+
+  * Add 'python-setuptools' to Build-Depends-Indep.
+
+ -- Stefan Jenkner <stefan@jenkner.org>  Sun, 10 May 2009 20:08:06 +0200
+
 python-django-dbtemplates (0.5.6-0jaunty1) jaunty; urgency=low
 
   * Initial release.
