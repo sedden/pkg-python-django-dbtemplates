@@ -4,9 +4,7 @@ Priority: optional
 Maintainer: Stefan Jenkner <stefan@jenkner.org>
 Standards-Version: 3.8.1
 Build-Depends: debhelper (>= 7), python-dev
-Build-Depends-Indep: python-support, python-docutils
-Vcs-Git: git://github.com/jezdez/django-dbtemplates.git
-Vcs-Browser: http://github.com/jezdez/django-dbtemplates/tree/master
+Build-Depends-Indep: python-support, python-docutils, python-setuptools
 Homepage: http://wiki.github.com/jezdez/django-dbtemplates
 
 Package: python-django-dbtemplates
