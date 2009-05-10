@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+
+PKG = $(shell dh_listpackages)
+
+%:
+	dh $@
+
+override_dh_installdocs:
+	dh_installdocs
+	# Generate documentation
+	rst2html <docs/overview.txt >debian/$(PKG)/usr/share/doc/$(PKG)/overview.html
+

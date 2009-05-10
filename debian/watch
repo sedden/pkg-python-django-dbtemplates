@@ -1,0 +1,3 @@
+version=3
+http://github.com/jezdez/django-dbtemplates/downloads \
+http://cloud.github.com/downloads/jezdez/django-dbtemplates/django-dbtemplates-(\d.*).tar.gz

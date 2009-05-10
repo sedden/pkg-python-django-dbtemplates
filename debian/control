@@ -1,0 +1,21 @@
+Source: python-django-dbtemplates
+Section: python
+Priority: optional
+Maintainer: Stefan Jenkner <stefan@jenkner.org>
+Standards-Version: 3.8.1
+Build-Depends: debhelper (>= 7), python-dev
+Build-Depends-Indep: python-support, python-docutils
+Vcs-Git: git://github.com/jezdez/django-dbtemplates.git
+Vcs-Browser: http://github.com/jezdez/django-dbtemplates/tree/master
+Homepage: http://wiki.github.com/jezdez/django-dbtemplates
+
+Package: python-django-dbtemplates
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}, python-django (>= 1.0)
+Description: A Django template loader for database stored templates
+ A Django template loader for database stored templates with an
+ extensible cache backend.
+ .
+ It loads template data from your database. All templates are editable
+ via the admin interface. Nice for django.contrib.flatpages templates
+ or default error templates.
