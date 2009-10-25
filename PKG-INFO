@@ -1,8 +1,8 @@
 Metadata-Version: 1.0
 Name: django-dbtemplates
-Version: 0.5.7
+Version: 0.5.8
 Summary: Template loader for database stored templates with extensible cache backend
-Home-page: http://bitbucket.org/jezdez/django-dbtemplates/wiki/Home
+Home-page: http://bitbucket.org/jezdez/django-dbtemplates/
 Author: Jannis Leidel
 Author-email: jannis@leidel.info
 License: UNKNOWN
@@ -245,7 +245,7 @@ Description: ===================================
         
         Please leave your questions and messages on the designated site:
         
-        http://code.google.com/p/django-dbtemplates/issues/list
+        http://bitbucket.org/jezdez/django-dbtemplates/issues/
         
 Platform: UNKNOWN
 Classifier: Development Status :: 4 - Beta
