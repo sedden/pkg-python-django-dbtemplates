@@ -9,14 +9,12 @@ dbtemplates/cache.py
 dbtemplates/loader.py
 dbtemplates/models.py
 dbtemplates/tests.py
-dbtemplates/locale/.DS_Store
 dbtemplates/locale/de/LC_MESSAGES/django.mo
 dbtemplates/locale/de/LC_MESSAGES/django.po
 dbtemplates/locale/fr/LC_MESSAGES/django.mo
 dbtemplates/locale/fr/LC_MESSAGES/django.po
 dbtemplates/locale/he/LC_MESSAGES/django.mo
 dbtemplates/locale/he/LC_MESSAGES/django.po
-dbtemplates/locale/it/.DS_Store
 dbtemplates/locale/it/LC_MESSAGES/django.mo
 dbtemplates/locale/it/LC_MESSAGES/django.po
 dbtemplates/management/__init__.py
