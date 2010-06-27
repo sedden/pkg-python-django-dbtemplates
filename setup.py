@@ -14,6 +14,8 @@ setup(
     package_data = {
         'dbtemplates': [
             'locale/*/LC_MESSAGES/*',
+            'media/dbtemplates/css/*.css',
+            'media/dbtemplates/js/*.js',
         ],
     },
     classifiers=[
