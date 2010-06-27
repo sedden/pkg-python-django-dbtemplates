@@ -1,3 +1,4 @@
 version=3
-http://bitbucket.org/jezdez/django-dbtemplates/downloads/ \
-/jezdez/django-dbtemplates/get/(\d.*).tar.gz
+opts=filenamemangle=s/.*\/(.*)#.*/$1/ \
+http://pypi.python.org/pypi/django-dbtemplates/ \
+http://pypi.python.org/packages/source/d/django-dbtemplates/django-dbtemplates-(.*).tar.gz#md5.+

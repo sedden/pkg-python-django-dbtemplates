@@ -7,7 +7,8 @@ Build-Depends: debhelper (>= 7), python-dev
 Build-Depends-Indep: python-support, python-docutils, python-setuptools
 XS-Python-Version: >= 2.5
 XB-Python-Version: ${python:Versions}
-Homepage: http://bitbucket.org/jezdez/django-dbtemplates/
+Vcs-Hg: http://bitbucket.org/jezdez/django-dbtemplates
+Homepage: http://packages.python.org/django-dbtemplates/
 
 Package: python-django-dbtemplates
 Architecture: all
